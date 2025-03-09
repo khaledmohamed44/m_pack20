@@ -6,8 +6,8 @@
   "homepage": "https://khaledmohamed44.github.io/m_pack20",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .",
-    "build": "echo 'Building site...'"
+    "deploy": "gh-pages -b gh-pages -d .",
+    "build": "echo 'Building for GitHub Pages...'"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
