@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Gunicorn configuration project",
   "private": true,
+
   "homepage": "https://khaledmohamed44.github.io/m_pack20",
   "scripts": {
-    "clean": "rimraf node_modules/.cache",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .",
-    "build": "echo 'جاري تجهيز الموقع للنشر...'"
+    "deploy": "gh-pages -b gh-pages -d .",
+    "build": "echo 'Building for GitHub Pages...'"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
