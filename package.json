@@ -1,0 +1,21 @@
+{
+  "name": "khaled-config",
+  "version": "1.0.0",
+  "description": "Gunicorn configuration project",
+  "private": true,
+  "homepage": "https://khaledmohamed44.github.io/config2024",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "build": "echo 'No build required'"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaledmohamed44/config2024.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
