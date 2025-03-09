@@ -7,10 +7,10 @@
   "homepage": "https://khaledmohamed44.github.io/m_pack20",
   "scripts": {
     "start": "echo 'Starting development server...'",
-    "predeploy": "echo 'جاري التجهيز...'",
-    "deploy": "gh-pages -d .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d . -r https://github.com/khaledmohamed44/m_pack20.git",
     "postdeploy": "echo 'تم النشر بنجاح!'",
-    "build": "echo 'جاري البناء...'"
+    "build": "echo 'جاري التجهيز...'"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
