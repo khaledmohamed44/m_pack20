@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Gunicorn configuration project",
   "private": true,
-  "homepage": "https://khaledmohamed44.github.io/config2024",
+  "homepage": "https://khaledmohamed44.github.io/m_pack20",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khaledmohamed44/config2024.git"
+    "url": "git+https://github.com/khaledmohamed44/m_pack20.git"
   },
   "author": "",
   "license": "ISC"
