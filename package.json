@@ -5,9 +5,10 @@
   "private": true,
   "homepage": "https://khaledmohamed44.github.io/m_pack20",
   "scripts": {
+    "clean": "rimraf node_modules/.cache",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d .",
-    "build": "echo 'Building for GitHub Pages...'"
+    "deploy": "gh-pages -d .",
+    "build": "echo 'جاري تجهيز الموقع للنشر...'"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
@@ -19,3 +20,4 @@
   "author": "",
   "license": "ISC"
 }
+
