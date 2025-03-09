@@ -6,9 +6,11 @@
 
   "homepage": "https://khaledmohamed44.github.io/m_pack20",
   "scripts": {
-    "predeploy": "echo 'Starting deployment...'",
+    "start": "echo 'Starting development server...'",
+    "predeploy": "echo 'جاري التجهيز...'",
     "deploy": "gh-pages -d .",
-    "build": "echo 'Building site...'"
+    "postdeploy": "echo 'تم النشر بنجاح!'",
+    "build": "echo 'جاري البناء...'"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
