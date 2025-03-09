@@ -6,10 +6,9 @@
 
   "homepage": "https://khaledmohamed44.github.io/m_pack20",
   "scripts": {
-    "clean": "if exist node_modules rmdir /s /q node_modules",
-    "predeploy": "npm run build",
+    "predeploy": "echo 'Starting deployment...'",
     "deploy": "gh-pages -d .",
-    "build": "echo Building site..."
+    "build": "echo 'Building site...'"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
